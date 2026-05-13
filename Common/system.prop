@@ -1,0 +1,86 @@
+# This file will be read by resetprop
+
+# ============================================
+# RAM Optimization - CLEANED
+# ============================================
+persist.sys.purgeable_assets=1
+ro.config.low_ram=false
+persist.sys.zram_enabled=1
+ro.sys.fw.bg_apps_limit=32
+ro.sys.fw.trim_enable_memory=true
+
+# ============================================
+# CPU Performance - CLEANED
+# ============================================
+debug.performance.tuning=1
+persist.sys.NV_FPSLIMIT=0
+persist.sys.NV_POWERMODE=1
+persist.sys.NV_STEREO_CONTROL=0
+persist.sys.NV_STEREO_EYES=0
+
+# ============================================
+# GPU Optimization (Adreno) - CLEANED
+# ============================================
+debug.egl.buffcount=3
+debug.egl.swapinterval=0
+persist.sys.ui.hw=1
+debug.egl.hw=1
+ro.product.gpu.driver=1
+video.accelerate.hw=1
+debug.gr.swapinterval=0
+persist.sys.use_dithering=0
+debug.gralloc.gfx_ubwc_disable=0
+
+# ============================================
+# Enhance - KEEPING (non-FPS specific) CLEANED
+# ============================================
+vendor.perf.framepacing.enable=1
+ro.vendor.display.type=oled
+vendor.display.vds_allow_hwc=1
+vendor.display.enable_optimize_refresh=1
+vendor.display.use_smooth_motion=1
+vendor.display.idle_time=0
+debug.sf.treat_170m_as_sRGB=1
+
+# ============================================
+# Touch Optimization - KEEPING CLEANED
+# ============================================
+persist.sys.scrollingcache=0
+ro.max.fling_velocity=30000
+ro.min.fling_velocity=12000
+ro.min_pointer_dur=8
+sys.use_fifo_ui=1
+windowsmgr.max_event_per_sec=1000
+touch.size.calibration=geometric
+touch.pressure.scale=0.001
+persist.sys.ui.hw=true
+persist.sys.force_hw_ui=true
+
+# ============================================
+# Qualcomm Snapdragon Tweaks - KEEPING CLEANED
+# ============================================
+debug.qctwa.statusbar=1
+debug.qctwa.preservebuf=1
+
+# ============================================
+# 3D Optimizations - KEEPING CLEANED
+# ============================================
+hw3d.force=1
+hw2d.force=1
+
+# ============================================
+# Liquid Smooth UI - KEEPING CLEANED
+# ============================================
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
+# ============================================
+# More Tweaks - CLEANED
+# ============================================
+debug.egl.force_msaa=false
+debug.gr.swapinterval=0
+debug.sf.hw=1
+debug.sf.latch_unsignaled=1
+debug.gfx.driver=1
+debug.performance.tuning=1
+debug.egl.profiler=0
