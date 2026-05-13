@@ -1,4 +1,4 @@
-## Originally a fork of [Gaming-X-Magisk-Module](https://github.com/JordanTweaks/Gaming-X-Magisk-Module) by [JordanTweaks](https://github.com/JordanTweaks)
+### Originally a fork of [Gaming-X-Magisk-Module](https://github.com/JordanTweaks/Gaming-X-Magisk-Module) by [JordanTweaks](https://github.com/JordanTweaks)
 ### Gutted, Rewritten, and Optimized for Android Snapdragon devices like the Retroid Pocket 5
 
 
