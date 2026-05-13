@@ -121,4 +121,4 @@ Changes Made: Removed thermal throttling disable, forced FPS settings, Vulkan re
 | Addition |	Purpose |	Risk Level | Completion |
 | :------- | :------- | :--------- | :--------- |
 | Moderate thermal limits |	Safer than complete disable |	Low | ✅ |
-| Battery-aware mode |	Reduce drain when not gaming |	Low | Next |
+| Battery-aware mode |	Reduce drain when not gaming |	Low | Forgoing changes for better compatibility with AC Charging Controller until best workaround can be implemented |
