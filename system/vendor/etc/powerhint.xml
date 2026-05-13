@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/*  Copyright (c) 2016-2021,The Linux Foundation. All rights reserved.
+ *  Simplified for gaming performance optimization
+ */
+-->
+<HintConfigs>
+    <Powerhint>
+
+        <!-- High FPS Game Mode - KEEPING for gaming performance -->
+        <!-- B CPU - Cluster min/max freq ~2802300kHz -->
+        <!-- L CPU - Cluster min/max freq ~1900800kHz -->
+        <!-- GPU - min/max pwrlevel 0 -->
+        <!-- Min Big CPUs 4 -->
+        <Config
+            Id="0x41424000" Enable="true" Timeout="0" Target="bengal"
+            Resources="0x40800100, 0x744, 0x40800000, 0xAE6, 0x40804100, 0x744, 0x40804000, 0xAE6,
+            0x40C68100, 10, 0x40C68110, 10, 0x40C68120, 10, 0x40C68130, 10,
+            0x40C68000, 10, 0x40C68010, 10, 0x40C68020, 10, 0x40C68030, 10,
+            0x41440100, 0x28, 0x41440000, 0x28, 0x4143C100, 1900800, 0x4143C000, 2802300,
+            0x40CA8000, 4, 0x40C20000, 60, 0x40C1C000, 60, 0x41000000, 4,
+            0x41820000, 0x8, 0x41808000, 0x64, 0x43014000, 0x0, 0x42804000, 0x0, 0x42808000, 0x0"/>
+
+        <Config
+            Id="0x41424000" Enable="true" Timeout="0" Target="scuba"
+            Resources="0x40800100, 0x744, 0x40800000, 0xAE6, 0x40804100, 0x744, 0x40804000, 0xAE6,
+            0x40C68000, 10, 0x40C68010, 10, 0x40C68020, 10, 0x40C68030, 10,
+            0x41440100, 0x28, 0x41440000, 0x28, 0x4143C100, 1900800, 0x4143C000, 2802300,
+            0x40CA8000, 4, 0x41000000, 4,
+            0x41820000, 0x8, 0x41808000, 0x64, 0x43014000, 0x0, 0x42804000, 0x0, 0x42808000, 0x0"/>
+
+        <Config
+            Id="0x41424000" Enable="true" Timeout="0" Target="khaje"
+            Resources="0x40800100, 0x744, 0x40800000, 0xAE6, 0x40804100, 0x744, 0x40804000, 0xAE6,
+            0x40C68100, 10, 0x40C68110, 10, 0x40C68120, 10, 0x40C68130, 10,
+            0x40C68000, 10, 0x40C68010, 10, 0x40C68020, 10, 0x40C68030, 10,
+            0x41440100, 0x28, 0x41440000, 0x28, 0x4143C100, 1900800, 0x4143C000, 2802300,
+            0x40CA8000, 4, 0x40C20000, 60, 0x40C1C000, 60, 0x41000000, 4,
+            0x43034000, 0x8, 0x43020000, 0x64, 0x43014000, 0x0, 0x42804000, 0x0, 0x42808000, 0x0"/>
+
+    </Powerhint>
+</HintConfigs>
