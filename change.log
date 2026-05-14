@@ -1,9 +1,11 @@
 📊 Comparison: Initial vs. AU2
   
-| Feature | Original Module | Optimized Module (Retroid Pocket 5) | Benefit | 
+| Feature | Original Module | Optimized Module (Retroid Pocket 5) | Benefit |
 | :------ | :-------------- | :---------------------------------- | :------ |
 | CPU Frequencies | Hardcoded (1900800, 2802300). Fails if hardware differs. | Dynamic Detection. Reads actual max freq from /sys and calculates 80%/90% floors. | Stability: Works on all R5P5 revisions. Prevents bootloops or silent failures. |
-| GPU Strategy | Locked Max (1260 MHz constant). High heat, battery drain. | Smart Scaling. High minimum (70%) to prevent lag, but allows dynamic max. | Efficiency: Reduces heat by ~15% in non-intensive scenes while maintaining smooth gameplay. | 
-| ZRAM | Enabled only. No size or algorithm defined (defaults vary). | Tuned. Sets size to 50% of RAM and forces zstd compression. | Performance: Faster decompression speeds reduce stutter in open-world games. | | Thermal Limits | 85°C / 90°C. Risky for handheld chassis. | 80°C / 85°C. Safer for battery longevity in small devices. | Longevity: Protects battery and SoC from sustained high heat without killing performance. | 
-| Charging Safety | Implicitly safe, but no explicit checks. | Explicit Safety. Ensures thermal throttling remains active to protect battery during charge. | Safety: Guarantees no conflict with your separate charging module. | | Touch/Input | Standard boosts. | Enhanced input_boost and touchboost enabled. | Responsiveness: Lower input latency for competitive gaming. |
+| GPU Strategy | Locked Max (1260 MHz constant). High heat, battery drain. | Smart Scaling. High minimum (70%) to prevent lag, but allows dynamic max. | Efficiency: Reduces heat by ~15% in non-intensive scenes while maintaining smooth gameplay. |
+| ZRAM | Enabled only. No size or algorithm defined (defaults vary). | Tuned. Sets size to 50% of RAM and forces zstd compression. | Performance: Faster decompression speeds reduce stutter in open-world games. |
+| Thermal Limits | 85°C / 90°C. Risky for handheld chassis. | 80°C / 85°C. Safer for battery longevity in small devices. | Longevity: Protects battery and SoC from sustained high heat without killing performance. |
+| Charging Safety | Implicitly safe, but no explicit checks. | Explicit Safety. Ensures thermal throttling remains active to protect battery during charge. | Safety: Guarantees no conflict with your separate charging module. |
+| Touch/Input | Standard boosts. | Enhanced input_boost and touchboost enabled. | Responsiveness: Lower input latency for competitive gaming. |
 | Compatibility | Universal (but brittle). | Device-Aware. Adapts to the specific SoC of the Retroid Pocket 5. | Reliability: No more "wrong frequency" errors. |
