@@ -1,4 +1,4 @@
-📊 Comparison: Initial vs. AU2
+# 📊 Comparison: Initial vs. AU2
   
 | Feature | Original Module | Optimized Module (Retroid Pocket 5) | Benefit |
 | :------ | :-------------- | :---------------------------------- | :------ |
