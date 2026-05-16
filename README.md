@@ -9,7 +9,7 @@
 📋 Complete Change Summary - Gaming-X Optimizer Module
 Overview
 
-Changes Made: Removed thermal throttling disable, forced FPS settings, Vulkan renderer locks, security-risk properties, and 25+ duplicate entries across files.
+>Changes Made: Removed thermal throttling disable, forced FPS settings, Vulkan renderer locks, security-risk properties, and 25+ duplicate entries across files.
 
 📁 File-by-File Changes
 
