@@ -1,6 +1,10 @@
-### Originally a fork of [Gaming-X-Magisk-Module](https://github.com/JordanTweaks/Gaming-X-Magisk-Module) by [JordanTweaks](https://github.com/JordanTweaks)
-### Gutted, Rewritten, and Optimized for Android Snapdragon devices like the Retroid Pocket 5
+>## Originally a fork of [Gaming-X-Magisk-Module](https://github.com/JordanTweaks/Gaming-X-Magisk-Module) by [JordanTweaks](https://github.com/JordanTweaks)
+>### Gutted, Rewritten, and Optimized for Android Snapdragon devices like the Retroid Pocket 5
 
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Android%2013%2B-green.svg)
+![Device](https://img.shields.io/badge/Device-Retroid%20Pocket%205-orange.svg)
+![Status](https://img.shields.io/badge/Status-Stable-success.svg)
 
 📋 Complete Change Summary - Gaming-X Optimizer Module
 Overview
