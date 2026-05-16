@@ -6,7 +6,7 @@
 ![Device](https://img.shields.io/badge/Device-Retroid%20Pocket%205-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Stable-success.svg)
 
-📋 Complete Change Summary - Gaming-X Optimizer Module
+>📋 Complete Change Summary - Gaming-X Optimizer Module
 Overview
 
 >Changes Made: Removed thermal throttling disable, forced FPS settings, Vulkan renderer locks, security-risk properties, and 25+ duplicate entries across files.
