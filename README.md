@@ -1,4 +1,5 @@
-# Originally a fork of [Gaming-X-Magisk-Module](https://github.com/JordanTweaks/Gaming-X-Magisk-Module) by [JordanTweaks](https://github.com/JordanTweaks)
+# Aurified-Gaming-Optimization 
+### **A fork of [Gaming-X-Magisk-Module](https://github.com/JordanTweaks/Gaming-X-Magisk-Module) by [JordanTweaks](https://github.com/JordanTweaks)**
 >## *Gutted, Rewritten, and Optimized for Android Snapdragon devices like the Retroid Pocket 5*
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
